@@ -4,7 +4,7 @@ public class Word {
         return word;
     }
     public Word (String word) {
-        this.word = new 
+        this.word = word.toCharArray()
     }
     public void setWord(char[] word) {
         this.word = word;
