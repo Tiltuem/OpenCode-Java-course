@@ -19,7 +19,8 @@ public class ConnectionBD {
             e.printStackTrace();
         }
     }
-    public Connection getConnection(){
+
+    public Connection getConnection() {
         connectToBD();
         return connection;
     }

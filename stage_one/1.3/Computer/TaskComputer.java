@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class TaskComputer {
 
     public static void main(String[] args) {
         boolean temp = false;
@@ -45,5 +45,6 @@ public class Main {
             System.out.print("\033[H\033[J");
         }
         System.out.println("Программа завершена.");
+        sc.close;
     }
 }

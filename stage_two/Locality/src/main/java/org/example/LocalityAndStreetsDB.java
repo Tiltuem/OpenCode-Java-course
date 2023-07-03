@@ -9,6 +9,7 @@ public class LocalityAndStreetsDB {
     static Statement statement;
     static Connection connection;
     static Scanner input = new Scanner(System.in);
+
     public static void main(String[] args) throws SQLException {
         ConnectionBD connectionBD = new ConnectionBD();
         connection = connectionBD.getConnection();
@@ -17,18 +18,18 @@ public class LocalityAndStreetsDB {
 
         CheckExistTable checkLocality = (stat) -> stat.execute(
                 "CREATE table IF NOT EXISTS Locality(" +
-                "id_locality SERIAL primary key," +
-                "name_locality varchar(255)," +
-                "square float," +
-                "type_locality varchar(255)," +
-                "people float," +
-                "founding_date varchar(255))");
-        CheckExistTable checkStreets= (stat) -> stat.execute(
+                        "id_locality SERIAL primary key," +
+                        "name_locality varchar(255)," +
+                        "square float," +
+                        "type_locality varchar(255)," +
+                        "people float," +
+                        "founding_date varchar(255))");
+        CheckExistTable checkStreets = (stat) -> stat.execute(
                 "CREATE table IF NOT EXISTS Streets(" +
-                    "id_street SERIAL primary key," +
-                    "name_street varchar(255)," +
-                    "type_street varchar(255)," +
-                    "id_loc INTEGER REFERENCES Locality(id_locality) ON DELETE CASCADE)");
+                        "id_street SERIAL primary key," +
+                        "name_street varchar(255)," +
+                        "type_street varchar(255)," +
+                        "id_loc INTEGER REFERENCES Locality(id_locality) ON DELETE CASCADE)");
         checkLocality.TableExistsSQL(statement);
         checkStreets.TableExistsSQL(statement);
 
@@ -160,6 +161,7 @@ public class LocalityAndStreetsDB {
             default -> System.out.println("Неверно введён номер действия.");
         }
     }
+
     public static void closeAll() {
         try {
             input.close();

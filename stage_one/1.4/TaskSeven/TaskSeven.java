@@ -39,5 +39,6 @@ public class TaskSeven {
         finally {
             System.out.println("Анализ проведен.");
         }
+        sc.close;
     }
 }

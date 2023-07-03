@@ -109,6 +109,7 @@ public class TaskThree {
                 }
             }
         }
+        sc.close;
     }
 
     public static int loadCheck(int overalVoltage, int numberMaxLoad, ArrayList<ElectricalAppliance> electricalAppliances) {

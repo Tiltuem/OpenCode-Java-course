@@ -7,6 +7,7 @@ public class Sentence {
     public ArrayList<Word> getWords() {
         return words;
     }
+
     public ArrayList<String> getStringWords() {
         ArrayList<String> words = new ArrayList<String>();
         for (int i = 1; i <= getWordsCount(); i++) {
@@ -14,10 +15,12 @@ public class Sentence {
         }
         return words;
     }
+
     public void setWords(ArrayList<Word> words) {
         this.words = words;
     }
-    public  void setWordsFromString(String words) {
+
+    public void setWordsFromString(String words) {
         String[] wordsArray = words.split(" ");
         for (String s : wordsArray) {
             this.words.add(new Word(s));
@@ -27,11 +30,13 @@ public class Sentence {
     public Sentence(ArrayList<Word> words) {
         this.words = words;
     }
+
     public Sentence(String[] words) {
         for (String word : words) {
             this.words.add(new Word(word));
         }
     }
+
     public Sentence(String words) {
         String[] wordsArray = words.split(" ");
         for (String s : wordsArray) {
@@ -43,9 +48,11 @@ public class Sentence {
     public int getWordsCount() {
         return words.size();
     }
+
     public Word getWordByPosition(int pos) {
-        return words.get(pos-1);
+        return words.get(pos - 1);
     }
+
     public String getOriginalSentence() {
         String originalSentence = "";
         for (Word word : words) {

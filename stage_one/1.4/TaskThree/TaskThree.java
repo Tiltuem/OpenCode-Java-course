@@ -12,7 +12,8 @@ public class TaskThree {
             return num % den == 0;
         };
 
-        if(operation.test(number, denominator)) System.out.println("Кратно");
+        if (operation.test(number, denominator)) System.out.println("Кратно");
         else System.out.println("Не кратно");
+        sc.close;
     }
 }

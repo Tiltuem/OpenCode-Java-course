@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5ab9ef9-671a-4025-935d-bf9ca311d644" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskEight.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskEight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskNine.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskNine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskSeven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskSix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.1/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.1/TaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.2/TaskFive/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.2/TaskFive/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.2/TaskFive/Sentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.2/TaskFive/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.2/TaskFive/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.2/TaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.2/TaskFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.2/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.2/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.2/TaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.2/TaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.2/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.2/TaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/Computer/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/Computer/CPU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/Computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/Computer/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/Computer/HDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/Computer/HDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/Computer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/Computer/TaskComputer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/Computer/RAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/Computer/RAM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/ElectricKettle.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/ElectricKettle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/ElectricalAppliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/ElectricalAppliance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/Fridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/TaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/Microwave.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/Microwave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/VacuumCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/ElectricalAppliance/VacuumCleaner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.3/matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.3/matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskFour/CopyAndComma.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskFour/CopyAndComma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskFour/TaskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskFour/TaskFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/Analizator.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/Analizator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/Sentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/TaskSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/TaskSeven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskSeven/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskThree/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskThree/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskThree/TaskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskThree/TaskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskTwo/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskTwo/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskTwo/Sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskTwo/Sentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskTwo/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskTwo/TaskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_one/1.4/TaskTwo/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_one/1.4/TaskTwo/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/test.kkQ2AA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/test.kkQ2AA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/test.kkQ2AA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/test.kkQ2AA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/test.kkQ2AA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/dataSources/0d62fe7f-5f62-45a5-b910-4186b6bed0b4/storage_v2/_src_/database/test.kkQ2AA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/CheckExistTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/CheckExistTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/ConnectionBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/ConnectionBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/LocalityAndStreetsDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/LocalityAndStreetsDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/PrintResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/PrintResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/SearchInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/SearchInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/TableAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/Locality/src/main/java/org/example/TableAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/TaskOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/TaskOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_two/TaskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/stage_two/TaskTwo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2S4aB9ODYE1dDSFDahFAGPNZNN2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Kirill/Documents/GitHub/Java-course"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5ab9ef9-671a-4025-935d-bf9ca311d644" name="Changes" comment="" />
+      <created>1688408168309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688408168309</updated>
+      <workItem from="1688408169553" duration="361000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

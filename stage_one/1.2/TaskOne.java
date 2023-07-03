@@ -11,12 +11,13 @@ public class TaskOne {
         else if (number == 2) System.out.println(1);
         else {
             int[] numbers = new int[number];
-            numbers[0]=0;
-            numbers[1]=1;
+            numbers[0] = 0;
+            numbers[1] = 1;
             for (int i = 2; i < numbers.length; i++) {
-                numbers[i]=numbers[i-2]+numbers[i-1];
+                numbers[i] = numbers[i - 2] + numbers[i - 1];
             }
             System.out.println(Arrays.toString(numbers));
         }
+        sc.close;
     }
 }

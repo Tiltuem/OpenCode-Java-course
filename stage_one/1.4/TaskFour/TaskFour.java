@@ -17,19 +17,20 @@ public class TaskFour {
             StringBuilder newText = new StringBuilder();
             StringBuilder copyText = new StringBuilder();
             for (int i = 0; i < textToWord.length && i < thisM; i++) {
-                newText.append(textToWord[i]+", ");
+                newText.append(textToWord[i] + ", ");
             }
-            int i =0;
-            while (copyText.length()<=thisL &&  i < thisN) {
+            int i = 0;
+            while (copyText.length() <= thisL && i < thisN) {
                 copyText.append(newText);
                 i++;
             }
-            if (copyText.length()>thisL) copyText.delete(thisL, copyText.length());
+            if (copyText.length() > thisL) copyText.delete(thisL, copyText.length());
             else copyText.delete(copyText.length() - 2, copyText.length() - 1);
             return copyText.toString();
         };
 
         String newText = operation.ComyAndComma(text, N, L, M);
         System.out.println(newText);
+        sc.close;
     }
 }

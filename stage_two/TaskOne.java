@@ -31,11 +31,12 @@ public class TaskOne {
                             if (stackBrackets.pop() != '{') check = false;
                         }
                     }
-                }
-                else stackBrackets.push(bracketsArray[i]);
+                } else stackBrackets.push(bracketsArray[i]);
             }
         }
+        
         if (check) System.out.println("Скобки расставлены верно.");
-        else System.out.println("Ошибка в расстановке скобок");
+        else System.out.println("Ошибка в расстановке скобок");\
+        sc.close;
     }
 }

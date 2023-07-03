@@ -7,18 +7,21 @@ public class TaskThree {
         String text = sc.nextLine();
         StringBuilder text2 = new StringBuilder();
         System.out.println("Введите элемент:");
-        int number = sc.nextInt()-1;
+        int number = sc.nextInt() - 1;
         System.out.println("Введите символ:");
         String b = sc.next();
-        char symbolChar = b.charAt(b.length()-1);
+
+
+        char symbolChar = b.charAt(b.length() - 1);
         for (String sentence : text.split("\\s")) {
-            if (sentence.length()>=number) {
+            if (sentence.length() >= number) {
                 char[] textToArray = sentence.toCharArray();
-                textToArray[number]=symbolChar;
+                textToArray[number] = symbolChar;
                 sentence = String.valueOf(textToArray);
             }
             text2.append(sentence).append(" ");
         }
         System.out.println(text2);
+        sc.close;
     }
 }

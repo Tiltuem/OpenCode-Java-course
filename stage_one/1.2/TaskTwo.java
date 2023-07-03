@@ -5,6 +5,8 @@ public class TaskTwo {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите текст:");
         String text = sc.nextLine().replaceAll("[^a-zA-Zа-яёА-ЯЁ ]", "");
+        
         System.out.println(text);
+        sc.close;
     }
 }

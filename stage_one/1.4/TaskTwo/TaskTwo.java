@@ -10,12 +10,13 @@ public class TaskTwo {
         Sentence sentence = new Sentence(splitText);
 
         Operation uniqueSentence = (sentence1) -> {
-            Set<String> s  = new LinkedHashSet<>(sentence1.getStringWords());
+            Set<String> s = new LinkedHashSet<>(sentence1.getStringWords());
             ArrayList<String> s2 = new ArrayList<>(s);
             return s2;
         };
         String[] newSentence = uniqueSentence.getDistinctSentence(sentence).toArray(String[]::new);
         Sentence distinctSentence = new Sentence(newSentence);
         System.out.println(distinctSentence.getOriginalSentence());
+        sc.close;
     }
 }

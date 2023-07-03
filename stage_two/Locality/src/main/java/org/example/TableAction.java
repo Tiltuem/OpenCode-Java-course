@@ -8,10 +8,10 @@ public class TableAction {
         Statement statement = connection.createStatement();
         try (ResultSet rs = statement.executeQuery("select " + idColumn + " from " + table)) {
             while (rs.next()) {
-               if (rs.getInt(idColumn)==key) {
-                   statement.close();
-                   return key;
-               }
+                if (rs.getInt(idColumn) == key) {
+                    statement.close();
+                    return key;
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -21,8 +21,10 @@ public class TableAction {
     }
 
     public static void setInfo(String value, String column, int key, String table, String idColumn, Statement statement) throws SQLException {
-        if (column.equals("people") || column.equals("square")) statement.execute("UPDATE " + table +" SET " + column + " = " + Float.parseFloat(value) + " WHERE "+idColumn+" = "+key);
-        else statement.execute("UPDATE " + table + " SET " + column+ " = '" + value + "' WHERE "+idColumn+" = "+key);
+        if (column.equals("people") || column.equals("square"))
+            statement.execute("UPDATE " + table + " SET " + column + " = " + Float.parseFloat(value) + " WHERE " + idColumn + " = " + key);
+        else
+            statement.execute("UPDATE " + table + " SET " + column + " = '" + value + "' WHERE " + idColumn + " = " + key);
         System.out.println("Запись изменена.");
     }
 
@@ -30,11 +32,10 @@ public class TableAction {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите id, который хотите удалить: ");
         int key = in.nextInt();
-        if (getId(connection, key, table, id)!=-1) {
-            statement.execute("DELETE FROM " + table + " WHERE " + id +" = "+key);
+        if (getId(connection, key, table, id) != -1) {
+            statement.execute("DELETE FROM " + table + " WHERE " + id + " = " + key);
             System.out.println("Запись удалена.");
-        }
-        else System.out.println("Неверно введён id.");
+        } else System.out.println("Неверно введён id.");
     }
 
     public static void insertLocality(PreparedStatement preparedStatement, Connection connection) throws SQLException {
@@ -65,6 +66,7 @@ public class TableAction {
         preparedStatement.execute();
         System.out.println("Запись добавлена.");
     }
+
     public static void modifyLocality(Statement statement, Connection connection) throws SQLException {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите id населенного пункта, который хотите изменить: ");
@@ -75,28 +77,27 @@ public class TableAction {
             switch (column) {
                 case "Наименование" -> {
                     System.out.println("Введите новое название населенного пункта: ");
-                    setInfo(in.next(), "name_locality", key,"locality", "id_locality", statement);
+                    setInfo(in.next(), "name_locality", key, "locality", "id_locality", statement);
                 }
                 case "Площадь" -> {
                     System.out.println("Введите новое значение плошади: ");
-                    setInfo(in.next(), "square", key, "locality","id_locality", statement);
+                    setInfo(in.next(), "square", key, "locality", "id_locality", statement);
                 }
                 case "Тип" -> {
                     System.out.println("Введите новый тип населенного пункта: ");
-                    setInfo(in.next(), "type_locality", key, "locality","id_locality", statement);
+                    setInfo(in.next(), "type_locality", key, "locality", "id_locality", statement);
                 }
                 case "Население" -> {
                     System.out.println("Введите новое количество населения: ");
-                    setInfo(in.next(), "people", key, "locality","id_locality", statement);
+                    setInfo(in.next(), "people", key, "locality", "id_locality", statement);
                 }
                 case "Дата основания" -> {
                     System.out.println("Введите новую дату создания: ");
-                    setInfo(in.next(), "date_founding", key, "locality","id_locality", statement);
+                    setInfo(in.next(), "date_founding", key, "locality", "id_locality", statement);
                 }
                 default -> System.out.println("Неверно выбран столбец.");
             }
-        }
-        else System.out.println("Неверно введён id.");
+        } else System.out.println("Неверно введён id.");
     }
 
     public static void insertStreet(PreparedStatement preparedStatement, Connection connection) throws SQLException {
@@ -118,6 +119,7 @@ public class TableAction {
         preparedStatement.execute();
         System.out.println("Запись добавлена.");
     }
+
     public static void modifyStreet(Statement statement, Connection connection) throws SQLException {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите id, который хотите изменить: ");
@@ -129,16 +131,15 @@ public class TableAction {
             switch (column) {
                 case "Наименование" -> {
                     System.out.println("Введите новое значение: ");
-                    setInfo(in.next(), "name_street", key,"streets", "id_street", statement);
+                    setInfo(in.next(), "name_street", key, "streets", "id_street", statement);
                 }
                 case "Тип" -> {
                     System.out.println("Введите новое значение: ");
-                    setInfo(in.next(), "type_street", key,"streets", "id_street", statement);
+                    setInfo(in.next(), "type_street", key, "streets", "id_street", statement);
                 }
                 default -> System.out.println("Неверно выбран столбец.");
             }
-        }
-        else System.out.println("Неверно введён id.");
+        } else System.out.println("Неверно введён id.");
     }
 }
 

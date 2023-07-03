@@ -8,17 +8,18 @@ public class TaskFive {
         int number = sc.nextInt();
 
         Predicate<Integer> isFeb = (num) -> {
-            if (num == 0||num == 1) return true;
-            int i=1, aCurrent = 1, aPrevious=1, a=0;
+            if (num == 0 || num == 1) return true;
+            int i = 1, aCurrent = 1, aPrevious = 1, a = 0;
             while (a < num) {
-                a=aCurrent+aPrevious;
-                aPrevious=aCurrent;
-                aCurrent=a;
+                a = aCurrent + aPrevious;
+                aPrevious = aCurrent;
+                aCurrent = a;
             }
-            return a==num;
+            return a == num;
         };
 
-        if(isFeb.test(number)) System.out.println("Является");
+        if (isFeb.test(number)) System.out.println("Является");
         else System.out.println("Не является");
+        sc.close;
     }
 }
